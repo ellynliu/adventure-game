@@ -19,7 +19,7 @@ def swim():
     swim()
 
 def walk():
-  print("You walk along the lakeshore. While you cross the bike path, a giant tricycle runs you over. You lose.")
+  print("You walk along the lakeshore. While you cross the bike path, a giant tricycle runs you over. You lose.  Try again? (y/n)")
   choice = input()
   if choice == "y":
     start()
